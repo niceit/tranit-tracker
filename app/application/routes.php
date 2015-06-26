@@ -120,8 +120,19 @@ Route::filter('project', function()
 
 Route::filter('issue', function()
 {
+    Asset::script('ckeditor', 'app/ckeditor/ckeditor.js');
 	Project\Issue::load_issue(Request::route()->parameters[1]);
+    if(isset(Request::route()->parameters[2]) && Request::route()->parameters[2] == 'status'){
 
+        $to = "phamquocvinh99@gmail.com";
+        $subject = "My subject";
+        $txt = "Hello world!";
+        $headers = "From: webmaster@example.com" . "\r\n" .
+            "CC: somebodyelse@example.com";
+
+        mail($to,$subject,$txt,$headers);
+
+    }
 	if(!Project\Issue::current())
 	{
 		return Response::error('404');

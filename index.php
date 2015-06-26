@@ -12,6 +12,5 @@ require 'app/paths.php';
 unset($web);
 
 require path('sys').'laravel.php';
-
 ?>
 

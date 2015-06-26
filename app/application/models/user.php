@@ -221,8 +221,11 @@ class User extends Eloquent {
 	* @param  int    $id
 	* @return array
 	*/
-	public static function update_user($info, $id)
+	public static function update_user($info, $id,$avatar)
 	{
+        if($avatar ==''){
+            $avatar = $info['old_avatar'];
+        }
 		$rules = array(
 			'firstname' => array('required', 'max:50'),
 			'lastname' => array('required', 'max:50'),
@@ -249,7 +252,8 @@ class User extends Eloquent {
 			'email' => $info['email'],
 			'firstname' => $info['firstname'],
 			'lastname' => $info['lastname'],
-			'role_id' => $info['role_id']
+			'role_id' => $info['role_id'],
+            'avatar' => $avatar
 		);
 
 		/* Update the password */
@@ -271,8 +275,9 @@ class User extends Eloquent {
 	* @param  array  $info
 	* @return array
 	*/
-	public static function add_user($info)
+	public static function add_user($info,$avatar)
 	{
+
 		$rules = array(
 			'firstname' => array('required', 'max:50'),
 			'lastname' => array('required', 'max:50'),
@@ -294,7 +299,8 @@ class User extends Eloquent {
 			'firstname' => $info['firstname'],
 			'lastname' => $info['lastname'],
 			'role_id' => $info['role_id'],
-			'password' => Hash::make($password = Str::random(6))
+			'password' => Hash::make($password = Str::random(6)),
+            'avatar' => $avatar
 		);
 
 		$user = new User;

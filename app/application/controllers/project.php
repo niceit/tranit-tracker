@@ -45,7 +45,6 @@ class Project_Controller extends Base_Controller {
 	public function get_issues()
 	{
 		$status = Input::get('status', 1);
-
 		return $this->layout->nest('content', 'project.index', array(
 			'page' => View::make('project/index/issues', array(
 				'issues' => Project::current()->issues()
@@ -105,6 +104,15 @@ class Project_Controller extends Base_Controller {
 			'project' => Project::current()
 		));
 	}
+    public function  extensions($type){
+        $temp = '';
+        switch($type){
+            case 'image/png': $temp = 'png';   break;
+            case 'image/jpg': $temp = 'jpg';   break;
+            case 'image/jpeg': $temp = 'jpeg';   break;
+        }
+        return $temp;
+    }
 
 	public function post_edit()
 	{
@@ -117,8 +125,40 @@ class Project_Controller extends Base_Controller {
 				->with('notice', __('tinyissue.project_has_been_deleted'));
 		}
 
+        $image = '';
+        if(\Laravel\Input::has_file('image')){
+            $img = \Laravel\Input::file('image');
+            if($img['size'] >100000 )
+            {
+                return Redirect::to(Project::current()->to('edit'))
+                    ->with_input()
+                    ->with('notice-error', __('tinyissue.file_sizes_errors'));
+            }
+
+            $arr_size = (getimagesize($img['tmp_name']));
+            if($arr_size[0] > 200 && $arr_size[1] > 200 )
+            {
+                return Redirect::to(Project::current()->to('edit'))
+                    ->with_input()
+                    ->with('notice-error', __('tinyissue.file_size_errors'));
+            }
+
+            $destination = "../uploads/project/";
+            $extensions = array('image/png','image/jpg','image/jpeg');
+            if(in_array($img['type'],$extensions)){
+                $name = md5($img['name'].(rand(11111,99999))).".".$this->extensions($img['type']);
+                \Laravel\Input::upload('image',$destination, $name);
+                $image = 'uploads/project/'.$name;
+            }else{
+                return Redirect::to(Project::current()->to('edit'))
+                    ->with_input()
+                    ->with('notice-error', __('tinyissue.file_type_errors'));
+            }
+
+        }
+
 		/* Update the project */
-		$update = Project::update_project(Input::all(), Project::current());
+		$update = Project::update_project(Input::all(), Project::current(),$image);
 
 		if($update['success'])
 		{

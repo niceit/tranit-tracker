@@ -67,11 +67,12 @@ class Section {
 	 *
 	 * @return string
 	 */
+    /*
 	public static function yield_section()
 	{
 		return static::yield(static::stop());
 	}
-
+    */
 	/**
 	 * Stop injecting content into a section.
 	 *
@@ -128,9 +129,10 @@ class Section {
 	 * @param  string  $section
 	 * @return string
 	 */
+    /*
 	public static function yield($section)
 	{
 		return (isset(static::$sections[$section])) ? static::$sections[$section] : '';
 	}
-
+    */
 }

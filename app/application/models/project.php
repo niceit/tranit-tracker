@@ -229,7 +229,7 @@ class Project extends Eloquent {
 	* @param  array  $input
 	* @return array
 	*/
-	public static function create_project($input)
+	public static function create_project($input, $image)
 	{
 		$rules = array(
 			'name' => 'required|max:250'
@@ -247,6 +247,7 @@ class Project extends Eloquent {
 
 		$fill = array(
 			'name' => $input['name'],
+            'image'=>$image
 		);
 
 		$project = new Project;
@@ -275,8 +276,11 @@ class Project extends Eloquent {
 	* @param \Project  $project
 	* @return array
 	*/
-	public static function update_project($input, $project)
+	public static function update_project($input, $project, $image)
 	{
+        if($image==''){
+            $image = $input['old_image'];
+        }
 		$rules = array(
 			'name' => 'required|max:250'
 		);
@@ -293,6 +297,7 @@ class Project extends Eloquent {
 
 		$fill = array(
 			'name' => $input['name'],
+            'image' =>$image,
 			'status' => $input['status']
 		);
 

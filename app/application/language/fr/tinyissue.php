@@ -79,6 +79,7 @@ return array(
 	'first_name' => 'Prénom',
 	'last_name' => 'Nom',
 	'email' => 'Courriel',
+    'avatar'=>'Avatar',
 	'only_complete_if_changing_password' => 'À remplir seulement si vous souhaitez changer le mot de passe',
 	'new_password' => 'Nouveau mot de passe',
 	'confirm' => 'Confirmation',

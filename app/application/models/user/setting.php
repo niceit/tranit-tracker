@@ -36,8 +36,11 @@ class Setting extends \Eloquent {
 	* @param  int    $user_id
 	* @return array
 	*/
-	public static function update_user_settings($info, $user_id)
+	public static function update_user_settings($info, $user_id, $avatar)
 	{
+        if($avatar ==''){
+            $avatar = $info['old_avatar'];
+        }
 		$rules = array(
 			'firstname'  => array('required', 'max:50'),
 			'lastname'  => array('required', 'max:50'),
@@ -66,8 +69,10 @@ class Setting extends \Eloquent {
 			'email' => $info['email'],
 			'firstname' => $info['firstname'],
 			'lastname' => $info['lastname'],
-			'language' => $info['language']
+			'language' => $info['language'],
+            'avatar'    => $avatar
 		);
+
 
 		/* Update the password */
 		if($info['password'])

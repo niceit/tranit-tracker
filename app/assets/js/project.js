@@ -81,9 +81,10 @@ $(function() {
 		$('#' + id + ' textarea').attr('disabled', 'disabled');
 
 		saving_toggle();
+        var value = CKEDITOR.instances['textareali'+id].getData();
 
 		$.post(current_url + '/edit_comment', {
-			body: discussion.find('#' + id + ' textarea').val(),
+			body:value,// discussion.find('#' + id + ' textarea').val(),
 			id: id,
 			csrf_token: $('input[name=csrf_token]').val()
 		}, function(data){

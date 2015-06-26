@@ -5,12 +5,18 @@
 
 <div class="pad">
 
-	<form method="post" action="" id="submit-project">
+	<form method="post" action="" id="submit-project" enctype="multipart/form-data">
 		<table class="form" style="width: 80%;">
 			<tr>
 				<th style="width: 10%;"><?php echo __('tinyissue.name');?></th>
-				<td><input type="text" name="name" style="width: 90%;" /></td>
+				<td><input type="text" name="name"   value="<?php echo Input::old('name')?>" style="width: 90%;" /></td>
 			</tr>
+            <tr>
+                <th><?php echo __('tinyissue.image'); ?></th>
+                <td>
+                    <input type="file"  value="<?php echo Input::old('image')?>"  name="image"  />
+                </td>
+            </tr>
 		</table>
 
 		<ul class="assign-users" style="display: none">

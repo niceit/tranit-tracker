@@ -17,8 +17,8 @@ return array(
 		'driver' => 'mysql',
 		'host'  => 'localhost',
 		'database' => 'blogitin_issue_tracker',
-		'username' => 'blogitin_niceit',
-		'password' => 'abc@123',
+		'username' => 'root',
+		'password' => '',
 	),
 
 	/**

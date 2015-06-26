@@ -22,10 +22,49 @@ class Projects_Controller extends Base_Controller {
 
 		return $this->layout->with('active', 'projects')->nest('content', 'projects.new');
 	}
-
+    public function  extensions($type){
+        $temp = '';
+        switch($type){
+            case 'image/png': $temp = 'png';   break;
+            case 'image/jpg': $temp = 'jpg';   break;
+            case 'image/jpeg': $temp = 'jpeg';   break;
+        }
+        return $temp;
+    }
 	public function post_new()
 	{
-		$create = Project::create_project(Input::all());
+        $image = 'uploads/project/projectDefault.png';
+        if(\Laravel\Input::has_file('image')){
+            $img = \Laravel\Input::file('image');
+            if($img['size'] >100000 )
+            {
+                return Redirect::to('projects/new')
+                    ->with_input()
+                    ->with('notice-error', __('tinyissue.file_sizes_errors'));
+            }
+
+            $arr_size = (getimagesize($img['tmp_name']));
+            if($arr_size[0] > 200 && $arr_size[1] > 200 )
+            {
+                return Redirect::to('projects/new')
+                    ->with_input()
+                    ->with('notice-error', __('tinyissue.file_size_errors'));
+            }
+
+            $destination = "../uploads/project/";
+            $extensions = array('image/png','image/jpg','image/jpeg');
+            if(in_array($img['type'],$extensions)){
+                $name = md5($img['name'].(rand(11111,99999))).".".$this->extensions($img['type']);
+                \Laravel\Input::upload('image',$destination, $name);
+                $image = 'uploads/project/'.$name;
+            }else{
+                return Redirect::to('projects/new')
+                    ->with_input()
+                    ->with('notice-error', __('tinyissue.file_type_errors'));
+            }
+
+        }
+		$create = Project::create_project(Input::all(),$image);
 
 		if($create['success'])
 		{

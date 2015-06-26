@@ -560,11 +560,12 @@ function render_each($partial, array $data, $iterator, $empty = 'raw|')
  * @param  string  $section
  * @return string
  */
+/*
 function yield($section)
 {
 	return Laravel\Section::yield($section);
 }
-
+*/
 /**
  * Get a CLI option from the argv $_SERVER variable.
  *
