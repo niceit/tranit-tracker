@@ -36,6 +36,9 @@
             <tr>
                 <th><?php echo __('tinyissue.avatar'); ?></th>
                 <td>
+                    <img height="30px" src="<?php if($user->avatar!='') echo URL::to_asset($user->avatar); else echo URL::to_asset('uploads/avatar/avatarDefault.png');  ?>" />
+                    <br/>
+                    <br/>
                     <input type="file"  value="<?php echo Input::old('avatar')?>"  name="avatar"  />
                 </td>
             </tr>

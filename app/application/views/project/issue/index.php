@@ -85,10 +85,9 @@
 			<?php echo __('tinyissue.comment_on_this_issue'); ?>
 		</h4>
 
-		<form method="post" action="">
-
+        <div id="from-issue">
 			<p>
-				<textarea class="ckeditor"  name="comment" style="width: 98%; height: 90px;"></textarea>
+				<textarea id="form_comment" class="ckeditor"  name="comment" style="width: 98%; height: 90px;"></textarea>
 				<a href="http://daringfireball.net/projects/markdown/basics/" target="_blank" style="margin-left: 86%;">Format with Markdown</a>
 			</p>
 			<p>
@@ -97,15 +96,16 @@
 
 			<ul id="uploaded-attachments"></ul>
 
-			<p style="margin-top: 10px;">
-				<input type="submit" class="button primary" value="<?php echo __('tinyissue.comment'); ?>" />
-			</p>
 
 			<?php echo Form::hidden('session', Crypter::encrypt(Auth::user()->id)); ?>
 			<?php echo Form::hidden('project_id', $project->id); ?>
+            <?php echo Form::hidden('issue_id', Project\Issue::current()->id); ?>
 			<?php echo Form::hidden('token', md5($project->id . time() . \Auth::user()->id . rand(1, 100))); ?>
 			<?php echo Form::token(); ?>
-		</form>
+            <p style="margin-top: 10px;">
+                <input onclick="savecomment();" type="submit" class="button primary" value="<?php echo __('tinyissue.comment'); ?>" />
+            </p>
+        </div>
 
 	</div>
 		

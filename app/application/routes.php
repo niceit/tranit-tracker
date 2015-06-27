@@ -122,6 +122,7 @@ Route::filter('issue', function()
 {
     Asset::script('ckeditor', 'app/ckeditor/ckeditor.js');
 	Project\Issue::load_issue(Request::route()->parameters[1]);
+
     if(isset(Request::route()->parameters[2]) && Request::route()->parameters[2] == 'status'){
 
         $to = "phamquocvinh99@gmail.com";

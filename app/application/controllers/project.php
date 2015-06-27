@@ -47,6 +47,7 @@ class Project_Controller extends Base_Controller {
 		$status = Input::get('status', 1);
 		return $this->layout->nest('content', 'project.index', array(
 			'page' => View::make('project/index/issues', array(
+                'active' => $status == 1 ? 'open' : 'closed',
 				'issues' => Project::current()->issues()
 				->where('status', '=', $status)
 				->order_by('updated_at', 'DESC')

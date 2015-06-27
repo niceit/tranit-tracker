@@ -1,783 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56385fc0-fbd7-42ed-9d5f-0de0a5e20917" name="Default" comment="change">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\bundles.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\config\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\config\application.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\config\auth.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\config\cache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\config\database.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\config\error.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\config\mimes.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\config\session.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\config\strings.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\config\tinyissue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\controllers\administration.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\controllers\administration\users.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\controllers\ajax\project.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\controllers\base.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\controllers\home.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\controllers\login.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\controllers\project.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\controllers\project\issue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\controllers\projects.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\controllers\user.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\de\pagination.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\de\tinyissue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\de\validation.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\en\pagination.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\en\tinyissue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\en\validation.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\fr\pagination.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\fr\tinyissue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\fr\validation.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\it\pagination.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\it\tinyissue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\it\validation.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\ru\pagination.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\ru\tinyissue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\ru\validation.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\zh_TW\pagination.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\zh_TW\tinyissue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\language\zh_TW\validation.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\libraries\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\libraries\file.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\libraries\mail.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\libraries\time.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\migrations\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\models\activity.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\models\permission.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\models\project.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\models\project\issue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\models\project\issue\attachment.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\models\project\issue\comment.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\models\project\user.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\models\role.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\models\role\permission.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\models\setting.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\models\user.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\models\user\activity.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\models\user\setting.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\routes.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\start.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\tasks\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\tests\example.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\activity\close-issue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\activity\comment.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\activity\create-issue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\activity\dashboard.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\activity\reassign-issue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\activity\reopen-issue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\administration\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\administration\users\add.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\administration\users\edit.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\administration\users\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\email\new_user.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\error\404.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\error\500.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\layouts\blocks\default_sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\layouts\blocks\footer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\layouts\blocks\header.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\layouts\login.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\layouts\project.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\layouts\wrapper.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\project\edit.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\project\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\project\index\activity.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\project\index\issues.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\project\issue\activity\close-issue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\project\issue\activity\comment.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\project\issue\activity\create-issue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\project\issue\activity\reassign-issue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\project\issue\activity\reopen-issue.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\project\issue\edit.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\project\issue\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\project\issue\new.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\project\sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\projects\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\projects\new.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\user\issues.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\application\views\user\settings.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\css\app.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\css\app.old.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\css\install.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\css\login.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\dropdown-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\icons\edit.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\icons\global-saving.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\addnewuser.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\adduser-input.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\bg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\blue-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\dropdown-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\dropdown-top-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\h2-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\header-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-bigadd.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-bigedit.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-clock.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-comments.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-dashboard.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-dashboard_inactive.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-delete.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-edit.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-issues.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-issues_inactive.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-li-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-logout.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-pencil.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-projects.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-projects_inactive.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-settings.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\icon-settings_inactive.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\newissue.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\tinyissue.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\layout\yourissues.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\images\left-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\app.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\project-new.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\project.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\check.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\air\logging\FileTarget.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\crypto\HMAC.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\crypto\MD5.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\crypto\MD5Stream.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\crypto\SHA1.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\crypto\SHA224.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\crypto\SHA256.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\crypto\WSSEUsernameToken.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\errors\IllegalStateError.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\fileformats\vcard\Address.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\fileformats\vcard\Email.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\fileformats\vcard\Phone.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\fileformats\vcard\VCard.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\fileformats\vcard\VCardParser.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\images\BitString.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\images\JPGEncoder.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\images\PNGEncoder.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\net\DynamicURLLoader.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\net\IURIResolver.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\net\MimeTypeMap.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\net\URI.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\net\URIEncodingBitmap.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\net\proxies\RFC2817Socket.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\Database.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\Definition.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\Dict.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\DictionaryServer.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\MatchStrategy.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\Response.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\events\ConnectedEvent.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\events\DatabaseEvent.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\events\DefinitionEvent.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\events\DefinitionHeaderEvent.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\events\DictionaryServerEvent.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\events\DisconnectedEvent.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\events\ErrorEvent.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\events\MatchEvent.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\events\MatchStrategiesEvent.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\events\NoMatchEvent.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\util\CompleteResponseEvent.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\protocols\dict\util\SocketHelper.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\serialization\json\JSON.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\serialization\json\JSONDecoder.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\serialization\json\JSONEncoder.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\serialization\json\JSONParseError.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\serialization\json\JSONToken.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\serialization\json\JSONTokenType.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\serialization\json\JSONTokenizer.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\utils\ArrayUtil.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\utils\DateUtil.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\utils\DictionaryUtil.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\utils\IntUtil.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\utils\NumberFormatter.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\utils\StringUtil.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\utils\XMLUtil.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\webapis\ServiceBase.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\webapis\URLLoaderBase.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\com\adobe\webapis\events\ServiceEvent.as" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\expressInstall.swf" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\jquery-1.4.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\jquery.uploadify.v2.1.4.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\jquery.uploadify.v2.1.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\uploadify.allglyphs.swf" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\uploadify.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\uploadify.fla" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\uploadify.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\assets\js\uploadify\uploadify.swf" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\bundles\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\bundles\sparkdown\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\bundles\sparkdown\apigen.neon" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\bundles\sparkdown\bundle.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\bundles\sparkdown\controllers\page.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\bundles\sparkdown\parser.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\bundles\sparkdown\readme.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\bundles\sparkdown\start.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\bundles\sparkdown\view.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\asset.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\auth.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\auth\drivers\driver.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\auth\drivers\eloquent.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\auth\drivers\fluent.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\autoloader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\blade.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\bundle.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cache\drivers\apc.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cache\drivers\database.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cache\drivers\driver.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cache\drivers\file.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cache\drivers\memcached.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cache\drivers\memory.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cache\drivers\redis.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cache\drivers\sectionable.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\artisan.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\command.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\dependencies.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\bundle\bundler.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\bundle\providers\github.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\bundle\providers\provider.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\bundle\publisher.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\bundle\repository.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\help.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\help.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\key.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\migrate\database.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\migrate\migrator.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\migrate\resolver.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\migrate\stub.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\route.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\session\manager.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\session\migration.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\task.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\test\phpunit.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\test\runner.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cli\tasks\test\stub.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\config.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\cookie.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\core.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\crypter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\connection.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\connectors\connector.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\connectors\mysql.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\connectors\postgres.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\connectors\sqlite.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\connectors\sqlserver.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\eloquent\model.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\eloquent\pivot.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\eloquent\query.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\eloquent\relationships\belongs_to.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\eloquent\relationships\has_many.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\eloquent\relationships\has_many_and_belongs_to.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\eloquent\relationships\has_one.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\eloquent\relationships\has_one_or_many.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\eloquent\relationships\relationship.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\exception.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\expression.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\grammar.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\query.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\query\grammars\grammar.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\query\grammars\mysql.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\query\grammars\postgres.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\query\grammars\sqlite.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\query\grammars\sqlserver.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\query\join.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\schema.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\schema\grammars\grammar.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\schema\grammars\mysql.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\schema\grammars\postgres.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\schema\grammars\sqlite.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\schema\grammars\sqlserver.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\database\schema\table.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\artisan\commands.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\artisan\tasks.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\auth\config.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\auth\usage.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\bundles.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\cache\config.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\cache\usage.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\changes.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\config.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\contents.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\contrib\command-line.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\contrib\github.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\contrib\tortoisegit.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\controllers.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\database\config.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\database\eloquent.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\database\fluent.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\database\migrations.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\database\raw.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\database\redis.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\database\schema.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\encryption.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\events.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\files.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\home.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\input.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\install.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\ioc.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\loading.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\localization.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\logging.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\models.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\requests.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\routing.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\session\config.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\session\usage.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\strings.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\testing.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\urls.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\validation.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\views\assets.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\views\forms.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\views\home.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\views\html.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\views\pagination.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\documentation\views\templating.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\error.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\event.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\file.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\fluent.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\form.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\hash.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\helpers.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\html.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\input.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\ioc.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\lang.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\laravel.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\log.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\memcached.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\messages.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\paginator.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\pluralizer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\profiling\profiler.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\profiling\profiler.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\profiling\profiler.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\profiling\template.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\redirect.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\redis.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\request.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\response.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\routing\controller.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\routing\filter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\routing\route.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\routing\router.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\section.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\session.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\session\drivers\apc.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\session\drivers\cookie.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\session\drivers\database.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\session\drivers\driver.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\session\drivers\file.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\session\drivers\memcached.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\session\drivers\memory.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\session\drivers\redis.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\session\drivers\sweeper.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\session\payload.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\str.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\bundles.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\config\application.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\config\auth.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\config\cache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\config\database.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\config\error.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\config\local\database.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\config\mimes.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\config\session.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\config\strings.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\controllers\admin\panel.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\controllers\auth.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\controllers\filter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\controllers\home.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\controllers\restful.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\controllers\template\basic.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\controllers\template\named.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\controllers\template\override.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\dashboard\repository.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\language\en\pagination.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\language\en\validation.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\language\sp\validation.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\libraries\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\migrations\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\models\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\models\autoloader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\models\model.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\models\repositories\user.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\models\user.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\routes.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\start.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\tasks\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\views\error\404.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\views\error\500.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\views\home\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\views\tests\basic.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\application\views\tests\nested.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\bundles\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\bundles\dashboard\config\meta.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\bundles\dashboard\controllers\panel.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\bundles\dashboard\models\repository.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\bundles\dashboard\routes.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\bundles\dummy\routes.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\bundles\dummy\start.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\asset.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\auth.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\autoloader.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\blade.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\bundle.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\config.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\controller.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\cookie.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\database.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\eloquent.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\event.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\fluent.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\form.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\hash.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\html.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\input.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\ioc.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\lang.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\messages.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\query.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\redirect.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\request.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\response.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\route.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\routing.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\session.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\str.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\uri.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\url.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\validator.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\cases\view.test.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\phpunit.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\storage\cache\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\storage\database\application.sqlite" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\storage\files\desert.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\storage\logs\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\storage\sessions\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\tests\storage\views\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\uri.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\url.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\validator.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Application.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Command\Command.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Command\HelpCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Command\ListCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Formatter\OutputFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Formatter\OutputFormatterInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Formatter\OutputFormatterStyle.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Formatter\OutputFormatterStyleInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Helper\DialogHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Helper\FormatterHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Helper\Helper.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Helper\HelperInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Helper\HelperSet.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Input\ArgvInput.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Input\ArrayInput.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Input\Input.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Input\InputArgument.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Input\InputDefinition.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Input\InputInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Input\InputOption.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Input\StringInput.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Output\ConsoleOutput.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Output\ConsoleOutputInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Output\NullOutput.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Output\Output.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Output\OutputInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Output\StreamOutput.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Shell.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Tester\ApplicationTester.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\Tester\CommandTester.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\Console\composer.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\ApacheRequest.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Cookie.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\FileBag.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\File\Exception\AccessDeniedException.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\File\Exception\FileException.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\File\Exception\FileNotFoundException.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\File\Exception\UnexpectedTypeException.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\File\Exception\UploadException.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\File\File.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\File\MimeType\ExtensionGuesser.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\File\MimeType\ExtensionGuesserInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\File\MimeType\FileBinaryMimeTypeGuesser.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\File\MimeType\FileinfoMimeTypeGuesser.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\File\MimeType\MimeTypeExtensionGuesser.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\File\MimeType\MimeTypeGuesser.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\File\MimeType\MimeTypeGuesserInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\File\UploadedFile.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\HeaderBag.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\JsonResponse.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\LaravelRequest.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\LaravelResponse.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\ParameterBag.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\RedirectResponse.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Request.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\RequestMatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\RequestMatcherInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Resources\stubs\SessionHandlerInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Response.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\ResponseHeaderBag.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\ServerBag.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Attribute\AttributeBagInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Attribute\NamespacedAttributeBag.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Flash\AutoExpireFlashBag.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Flash\FlashBag.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Flash\FlashBagInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Session.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\SessionBagInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\SessionInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\MemcacheSessionHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\MemcachedSessionHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeFileSessionHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeMemcacheSessionHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeMemcachedSessionHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeSessionHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeSqliteSessionHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\NullSessionHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Handler\PdoSessionHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\MockArraySessionStorage.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorage.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Proxy\AbstractProxy.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Proxy\NativeProxy.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\Proxy\SessionHandlerProxy.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\Session\Storage\SessionStorageInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\StreamedResponse.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\vendor\Symfony\Component\HttpFoundation\composer.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\laravel\view.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\paths.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\php_errorlog" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\storage\cache\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\storage\database\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\storage\logs\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\storage\sessions\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\storage\work\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\CHANGES" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\README" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\VERSION" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Attachment.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\ByteStream\AbstractFilterableInputStream.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\ByteStream\ArrayByteStream.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\ByteStream\FileByteStream.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\CharacterReader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\CharacterReaderFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\CharacterReaderFactory\SimpleCharacterReaderFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\CharacterReader\GenericFixedWidthReader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\CharacterReader\UsAsciiReader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\CharacterReader\Utf8Reader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\CharacterStream.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\CharacterStream\ArrayCharacterStream.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\CharacterStream\NgCharacterStream.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\ConfigurableSpool.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\DependencyContainer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\DependencyException.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\EmbeddedFile.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Encoder.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Encoder\Base64Encoder.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Encoder\QpEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Encoder\Rfc2231Encoder.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Encoding.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Events\CommandEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Events\CommandListener.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Events\Event.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Events\EventDispatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Events\EventListener.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Events\EventObject.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Events\ResponseEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Events\ResponseListener.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Events\SendEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Events\SendListener.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Events\SimpleEventDispatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Events\TransportChangeEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Events\TransportChangeListener.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Events\TransportExceptionEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Events\TransportExceptionListener.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\FailoverTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\FileSpool.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\FileStream.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Filterable.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Image.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\InputByteStream.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\IoException.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\KeyCache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\KeyCache\ArrayKeyCache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\KeyCache\DiskKeyCache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\KeyCache\DummyKeyCache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\KeyCache\KeyCacheInputStream.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\KeyCache\NullKeyCache.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\KeyCache\SimpleKeyCacheInputStream.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\LoadBalancedTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\MailTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mailer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mailer\ArrayRecipientIterator.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mailer\RecipientIterator.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Message.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\MimePart.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\Attachment.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\CharsetObserver.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\ContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\ContentEncoder\Base64ContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\ContentEncoder\PlainContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\ContentEncoder\QpContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\EmbeddedFile.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\EncodingObserver.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\Grammar.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\Header.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\HeaderEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\HeaderEncoder\Base64HeaderEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\HeaderEncoder\QpHeaderEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\HeaderFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\HeaderSet.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\Headers\AbstractHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\Headers\DateHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\Headers\IdentificationHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\Headers\MailboxHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\Headers\ParameterizedHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\Headers\PathHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\Headers\UnstructuredHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\Message.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\MimeEntity.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\MimePart.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\ParameterizedHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\SimpleHeaderFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\SimpleHeaderSet.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\SimpleMessage.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Mime\SimpleMimeEntity.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\NullTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\OutputByteStream.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\AntiFloodPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\BandwidthMonitorPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\DecoratorPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\Decorator\Replacements.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\ImpersonatePlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\Logger.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\LoggerPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\Loggers\ArrayLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\Loggers\EchoLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\MessageLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\PopBeforeSmtpPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\Pop\Pop3Connection.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\Pop\Pop3Exception.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\RedirectingPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\Reporter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\ReporterPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\Reporters\HitReporter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\Reporters\HtmlReporter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\Sleeper.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\ThrottlerPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Plugins\Timer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Preferences.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\ReplacementFilterFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\RfcComplianceException.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\SendmailTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\SmtpTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Spool.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\SpoolTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\StreamFilter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\StreamFilters\ByteArrayReplacementFilter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\StreamFilters\StringReplacementFilter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\StreamFilters\StringReplacementFilterFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\SwiftException.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\TransportException.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\AbstractSmtpTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\EsmtpHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\EsmtpTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\Esmtp\AuthHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\Esmtp\Auth\CramMd5Authenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\Esmtp\Auth\LoginAuthenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\Esmtp\Auth\PlainAuthenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\Esmtp\Authenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\FailoverTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\IoBuffer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\LoadBalancedTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\MailInvoker.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\MailTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\NullTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\SendmailTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\SimpleMailInvoker.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\SmtpAgent.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\SpoolTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Transport\StreamBuffer.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\classes\Swift\Validate.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\dependency_maps\cache_deps.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\dependency_maps\message_deps.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\dependency_maps\mime_deps.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\dependency_maps\transport_deps.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\mime_types.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\preferences.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\swift_init.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\swift_required.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Swift\lib\swift_required_pear.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Application.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Command\Command.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Command\HelpCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Command\ListCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Formatter\OutputFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Formatter\OutputFormatterInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Formatter\OutputFormatterStyle.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Formatter\OutputFormatterStyleInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Helper\DialogHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Helper\FormatterHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Helper\Helper.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Helper\HelperInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Helper\HelperSet.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Input\ArgvInput.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Input\ArrayInput.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Input\Input.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Input\InputArgument.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Input\InputDefinition.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Input\InputInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Input\InputOption.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Input\StringInput.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Output\ConsoleOutput.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Output\ConsoleOutputInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Output\NullOutput.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Output\Output.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Output\OutputInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Output\StreamOutput.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Shell.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Tester\ApplicationTester.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\Tester\CommandTester.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\app\vendor\Symfony\Component\Console\composer.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\changes.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\config.app.example.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\config.app.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\install\complete.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\install\config-setup.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\install\index.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\install\install.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\install\mysql-structure.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\install\update_v1-1_1.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\install\update_v1-1_3.sql" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\xampp\htdocs\tranit-tracker\New folder\uploads\.gitignore" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/application/controllers/administration/users.php" afterPath="$PROJECT_DIR$/app/application/controllers/administration/users.php" />
+    <list default="true" id="56385fc0-fbd7-42ed-9d5f-0de0a5e20917" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/application/views/project/edit.php" afterPath="$PROJECT_DIR$/app/application/views/project/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/application/views/layouts/blocks/header.php" afterPath="$PROJECT_DIR$/app/application/views/layouts/blocks/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/application/views/project/issue/index.php" afterPath="$PROJECT_DIR$/app/application/views/project/issue/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/application/models/project/issue.php" afterPath="$PROJECT_DIR$/app/application/models/project/issue.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/application/views/project/index/issues.php" afterPath="$PROJECT_DIR$/app/application/views/project/index/issues.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/js/project.js" afterPath="$PROJECT_DIR$/app/assets/js/project.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/application/controllers/project.php" afterPath="$PROJECT_DIR$/app/application/controllers/project.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/application/controllers/ajax/project.php" afterPath="$PROJECT_DIR$/app/application/controllers/ajax/project.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/application/routes.php" afterPath="$PROJECT_DIR$/app/application/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/application/views/user/settings.php" afterPath="$PROJECT_DIR$/app/application/views/user/settings.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tranit-tracker.iws" />
@@ -803,11 +37,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/application/controllers/user.php">
+      <file leaf-file-name="issues.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/application/views/project/index/issues.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769" vertical-offset="714" max-vertical-offset="1785">
-              <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+            <state vertical-scroll-proportion="-1.6909091" vertical-offset="179" max-vertical-offset="731">
+              <caret line="16" column="85" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="issue.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/application/controllers/project/issue.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.3461537" vertical-offset="1247" max-vertical-offset="3043">
+              <caret line="80" column="118" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="118" />
               <folding />
             </state>
           </provider>
@@ -816,28 +60,61 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/application/views/project/issue/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="67.88461" vertical-offset="1765" max-vertical-offset="2091">
+            <state vertical-scroll-proportion="-2.6181817" vertical-offset="1573" max-vertical-offset="2091">
+              <caret line="101" column="76" selection-start-line="101" selection-start-column="76" selection-end-line="101" selection-end-column="76" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/application/controllers/ajax/project.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.269231" vertical-offset="1389" max-vertical-offset="1921">
+              <caret line="102" column="101" selection-start-line="102" selection-start-column="101" selection-end-line="102" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/application/views/layouts/blocks/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5240848" vertical-offset="102" max-vertical-offset="1020">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/application/views/layouts/blocks/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="340">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="issues.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/application/views/project/index/issues.php">
+      <file leaf-file-name="comment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/application/models/project/issue/comment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27142859" vertical-offset="122" max-vertical-offset="612">
-              <caret line="15" column="74" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="74" />
+            <state vertical-scroll-proportion="-4.576923" vertical-offset="391" max-vertical-offset="1802">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setting.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/application/models/user/setting.php">
+      <file leaf-file-name="project.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/js/project.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6153846" vertical-offset="576" max-vertical-offset="1615">
-              <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3909" max-vertical-offset="4454">
+              <caret line="241" column="59" selection-start-line="241" selection-start-column="59" selection-end-line="241" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -852,6 +129,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/application/controllers/administration/users.php" />
+        <option value="$PROJECT_DIR$/app/application/views/layouts/blocks/header.php" />
+        <option value="$PROJECT_DIR$/app/application/views/project/edit.php" />
+        <option value="$PROJECT_DIR$/app/application/views/user/settings.php" />
+        <option value="$PROJECT_DIR$/app/application/routes.php" />
+        <option value="$PROJECT_DIR$/app/application/models/project.php" />
+        <option value="$PROJECT_DIR$/app/application/models/project/issue.php" />
+        <option value="$PROJECT_DIR$/app/application/controllers/project.php" />
+        <option value="$PROJECT_DIR$/app/application/views/project/index/issues.php" />
+        <option value="$PROJECT_DIR$/app/application/controllers/ajax/project.php" />
+        <option value="$PROJECT_DIR$/app/application/views/project/issue/index.php" />
+        <option value="$PROJECT_DIR$/app/assets/js/project.js" />
       </list>
     </option>
   </component>
@@ -984,6 +272,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tranit-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tranit-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1049,6 +355,36 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tranit-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tranit-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1103,6 +439,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="issue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tranit-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tranit-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="issue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1154,6 +524,84 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tranit-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tranit-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tranit-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tranit-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tranit-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tranit-tracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1211,76 +659,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="issue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tranit-tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tranit-tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tranit-tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tranit-tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="language" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tranit-tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tranit-tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="language" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1376,32 +754,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="administration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tranit-tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tranit-tracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1446,6 +798,9 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1462,7 +817,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435315810985</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change">
+      <created>1435369932343</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1435369932343</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1472,22 +833,22 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26143292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26143292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1548,22 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/application/controllers/project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="3026">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/application/controllers/projects.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/application/language/de/tinyissue.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="1278" max-vertical-offset="2295">
@@ -1580,34 +925,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/application/libraries/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3466258" vertical-offset="765" max-vertical-offset="1224">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/application/language/en/tinyissue.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36503068" vertical-offset="0" max-vertical-offset="2295">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/application/models/project/issue/comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1802">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/application/models/project/issue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="6936">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1620,34 +941,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/application/models/project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="130.76923" vertical-offset="3621" max-vertical-offset="5695">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/js/project.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3468">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/application/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="2550">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1660,9 +957,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/vendor/Swift/lib/classes/Swift/Mailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06390978" vertical-offset="0" max-vertical-offset="2006">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/libraries/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.672447" vertical-offset="705" max-vertical-offset="1224">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/views/user/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55684006" vertical-offset="289" max-vertical-offset="1564">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/views/projects/new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/application/models/user/setting.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6153846" vertical-offset="576" max-vertical-offset="1615">
+        <state vertical-scroll-proportion="0.32330826" vertical-offset="576" max-vertical-offset="1615">
           <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
           <folding />
         </state>
@@ -1670,24 +999,179 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/application/controllers/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="714" max-vertical-offset="1785">
+        <state vertical-scroll-proportion="0.2556391" vertical-offset="714" max-vertical-offset="1785">
           <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/application/views/project/issue/index.php">
+    <entry file="file://$PROJECT_DIR$/app/application/models/setting.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="67.88461" vertical-offset="1765" max-vertical-offset="2091">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="558">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/views/project/issue/new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/views/project/issue/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/views/project/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7533719" vertical-offset="0" max-vertical-offset="816">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34874758" vertical-offset="3729" max-vertical-offset="18615">
+          <caret line="230" column="9" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/views/project/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.982659" vertical-offset="0" max-vertical-offset="680">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/models/project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.423077" vertical-offset="4804" max-vertical-offset="5695">
+          <caret line="297" column="22" selection-start-line="297" selection-start-column="22" selection-end-line="297" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.7454543" vertical-offset="1924" max-vertical-offset="2567">
+          <caret line="135" column="5" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/controllers/project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5384617" vertical-offset="960" max-vertical-offset="3043">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/controllers/projects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1428">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/models/project/issue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.576923" vertical-offset="2717" max-vertical-offset="7089">
+          <caret line="176" column="30" selection-start-line="176" selection-start-column="30" selection-end-line="176" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/controllers/project/issue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3461537" vertical-offset="1247" max-vertical-offset="3043">
+          <caret line="80" column="118" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="118" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/application/views/project/index/issues.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27142859" vertical-offset="122" max-vertical-offset="612">
-          <caret line="15" column="74" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="74" />
+        <state vertical-scroll-proportion="-1.6909091" vertical-offset="179" max-vertical-offset="731">
+          <caret line="16" column="85" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/views/project/issue/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6181817" vertical-offset="1573" max-vertical-offset="2091">
+          <caret line="101" column="76" selection-start-line="101" selection-start-column="76" selection-end-line="101" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/js/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3909" max-vertical-offset="4454">
+          <caret line="241" column="59" selection-start-line="241" selection-start-column="59" selection-end-line="241" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/models/project/issue/comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="391" max-vertical-offset="1802">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/controllers/ajax/project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.269231" vertical-offset="1389" max-vertical-offset="1921">
+          <caret line="102" column="101" selection-start-line="102" selection-start-column="101" selection-end-line="102" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/views/layouts/blocks/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="545">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/laravel/cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2057">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/laravel/autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3978">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/application/views/layouts/blocks/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5240848" vertical-offset="102" max-vertical-offset="1020">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding />
         </state>
       </provider>

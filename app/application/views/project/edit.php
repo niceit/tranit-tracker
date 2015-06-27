@@ -19,7 +19,8 @@
             <tr>
                 <th><?php echo __('tinyissue.image'); ?></th>
                 <td>
-                    <input type="file"  value="<?php echo Input::old('image')?>"  name="image"  />
+                    <input type="file"  value="<?php echo Input::old('image')?>"  name="image"  /><br/><br/>
+                    <img height="50px" src="<?php if(Project::current()->image!='') echo URL::to_asset(Project::current()->image); else echo URL::to_asset('uploads/project/projectDefault.png');  ?>" />
                 </td>
             </tr>
 

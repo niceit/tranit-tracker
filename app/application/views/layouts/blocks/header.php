@@ -21,7 +21,7 @@
 		<div id="header">
 
 			<ul class="nav-right">
-				<li><?php echo __('tinyissue.welcome');?>, <a href="<?php echo URL::to('user/settings'); ?>" class="user"><img width="30px" src="<?php echo URL::to_asset(Auth::user()->avatar);  ?>" /><?php echo Auth::user()->firstname; ?></a></li>
+				<li><?php echo __('tinyissue.welcome');?>, <a href="<?php echo URL::to('user/settings'); ?>" class="user"><img width="30px" src="<?php if(Auth::user()->avatar!='') echo URL::to_asset(Auth::user()->avatar); else echo URL::to_asset('uploads/avatar/avatarDefault.png');  ?>" /><?php echo Auth::user()->firstname; ?></a></li>
 				<?php if(Auth::user()->permission('administration')): ?>
 				<li><a href="<?php echo URL::to('administration/users'); ?>"><?php echo __('tinyissue.users');?></a></li>
 				<li><a href="<?php echo URL::to('administration'); ?>"><?php echo __('tinyissue.administration');?></a></li>

@@ -82,4 +82,27 @@ class Ajax_Project_Controller extends Base_Controller {
 		Project\Issue\Attachment::remove_attachment(Input::all());
 	}
 
+    public function post_closeIssue()
+    {
+        $input = Input::all();
+        $project = new Project\Issue();
+        $project::load_issue($input['id']);
+        \Project\Issue::update_status_project($input, $project::current());
+        echo '1';
+        die();
+    }
+    public function post_savecomment()
+    {
+        $input = Input::all();
+        $issue = new Project\Issue();
+        $issue::load_issue($input['issue_id']);
+
+        $project = new Project();
+        $project::load_project($input['project_id']);
+
+        \Project\Issue\Comment::create_comment(Input::all(), $project::current(), $issue::current());
+        echo '1';
+        die();
+    }
+
 }

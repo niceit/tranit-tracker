@@ -167,8 +167,17 @@ class Issue extends \Eloquent {
 		return $return;
 		
 	}
-	
-	
+
+    public static function update_status_project($input, $project)
+    {
+        $fill = array(
+            'status' => $input['status']
+        );
+
+        $project->fill($fill);
+        $project->save();
+
+    }
 
 	public function comments()
 	{

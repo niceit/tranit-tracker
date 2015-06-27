@@ -196,3 +196,62 @@ function assign_issue_to_user(user_id, issue_id, callback){
       callback();
    });
 }
+
+function closeissue(id){
+    var status = 0;
+    if($("#close_issue"+id).is(':checked')==true){
+        status = 0;
+        $(".close_issue"+id).css('text-decoration','line-through');
+    }else{
+        status = 1;
+        $(".close_issue"+id).css('text-decoration','none');
+    }
+    $.ajax({
+        url: siteurl + 'ajax/project/closeIssue',
+        type: 'post',
+        data:{
+            'id':id,
+            'status': status
+        },
+        dataType: 'html',
+        success: function(datas) {
+
+        }
+    });
+}
+function savecomment(){
+    var comment = CKEDITOR.instances['form_comment'].getData();
+    var session = $('#from-issue  input[name="session"]').val();
+    var project_id = $('#from-issue  input[name="project_id"]').val();
+    var token = $('#from-issue  input[name="token"]').val();
+    var csrf_token = $('#from-issue  input[name="csrf_token"]').val();
+    var issue_id = $('#from-issue  input[name="issue_id"]').val();
+    $.ajax({
+        url: siteurl + 'ajax/project/savecomment',
+        type: 'post',
+        data:{
+            'comment':comment,
+            'session': session,
+            'project_id': project_id,
+            'token': token,
+            'csrf_token': csrf_token,
+            'issue_id': issue_id
+        },
+        dataType: 'json',
+        success: function(datas) {
+            var html ='<li id="comment9" class="comment">';
+            html += '<div class="insides">';
+            html += '<div class="topbar">';
+
+            html += '<strong>Pham Vinh</strong>';
+            html += 'Commented June 26th at 11:03 PM		</div>';
+            html += '<div class="issue">';
+            html += '<p>cdvsdvsv</p>';
+            html += '</div>';
+            html += '</div>';
+            html += '<div class="clr"></div>';
+            html += '</li>';
+            $('.issue-discussion').append(html);
+        }
+    });
+}

@@ -6,10 +6,17 @@
 		<?php else: ?>
 		<ul class="issues">
 			<?php foreach($issues as $row):  ?>
-			<li>
+			<li class="close_issue<?php echo $row->id; ?>">
 				<a href="" class="comments"><?php echo $row->comment_count(); ?></a>
-				<a href="" class="id">#<?php echo $row->id; ?></a>
-				<div class="data">
+
+                    <?php if (isset($active) && $active == 'open') : ?>
+                        <a href="javascript:void(0);" class="id">
+                        <input onclick="closeissue(<?php echo $row->id; ?>)" id="close_issue<?php echo $row->id; ?>" type="checkbox" name="close_issue" value="<?php echo $row->id; ?>"  />
+                            #<?php echo $row->id; ?></a>
+				    <?php else : ?>
+                        <a href="javascript:void(0);" class="id">#<?php echo $row->id; ?></a>
+                    <?php endif; ?>
+                <div class="data">
 					<a href="<?php echo $row->to(); ?>"><?php echo $row->title; ?></a>
 					<div class="info">
 						<?php echo __('tinyissue.created_by'); ?>
