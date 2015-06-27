@@ -29,7 +29,7 @@ class Administration_Users_Controller extends Base_Controller {
 		return $this->layout->with('active', 'dashboard')->nest('content', 'administration.users.add');
 	}
 
-    
+
 	public function post_add()
 	{
         $avatar = 'uploads/avatar/avatarDefault.png';
